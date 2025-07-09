@@ -35,7 +35,7 @@ go run .
 ```
 
 ## 5G Core Network
-The simulation of 5G Core Network is based on Free5GC, an open-source project on GitHub. The version of Free5GC in our testbed is v3.2.1.
+The simulation of 5G Core Network is based on Free5GC, an open-source project on GitHub. The version of Free5GC in our testbed is v3.2.1. It should be deployed at localhost.
 
 ## Benchmark
 CHO performance is composed of resource utilization and network performance. 
