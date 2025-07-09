@@ -1,0 +1,32 @@
+0,Xn Setup Request,ran1 send to ran0,01:13:11.085214,ran0 recv from ran1,09:13:11.085269
+0,Xn Setup Response,ran0 send to ran1,09:13:11.085314
+0,Xn Setup Request,ran0 send to ran1,09:13:11.085367
+0,Xn Setup Response,ran1 send to ran0,01:13:11.085397,ran0 recv from ran1,09:13:11.100851
+
+1,Registration Request,ran0 send to amf,09:13:11.293449
+1,Authentication Request,ran0 recv from amf,09:13:11.304489
+1,Authentication Response,ran0 send to amf,09:13:11.305040
+1,Security Mode Command,ran0 recv from amf,09:13:11.311469
+1,Security Mode Complete,ran0 send to amf,09:13:11.311870
+1,Initial Context Setup Request,ran0 recv from amf,09:13:11.325777
+1,Initial Context Setup Response,ran0 send to amf,09:13:11.325977
+1,Registration Complete,ran0 send to amf,09:13:11.326278
+1,Get Pdu Session Establishment Request,ran0 send to amf,09:13:11.426871
+1,PDU Session Resource Setup Request,ran0 recv from amf,09:13:11.555045
+1,PDU Session Resource Setup Response,ran0 send to amf,09:13:11.556201
+1,Registration Complete,ran0 send to ue,09:13:11.556205
+
+
+3,Registration Request,ran0 send to amf,09:13:11.490649
+3,Authentication Request,ran0 recv from amf,09:13:11.561656
+3,Authentication Response,ran0 send to amf,09:13:11.562439
+3,Security Mode Command,ran0 recv from amf,09:13:11.567067
+3,Security Mode Complete,ran0 send to amf,09:13:11.567364
+3,Initial Context Setup Request,ran0 recv from amf,09:13:11.581243
+3,Initial Context Setup Response,ran0 send to amf,09:13:11.581456
+3,Registration Complete,ran0 send to amf,09:13:11.581740
+3,Get Pdu Session Establishment Request,ran0 send to amf,09:13:11.682308
+3,PDU Session Resource Setup Request,ran0 recv from amf,09:13:11.799150
+3,PDU Session Resource Setup Response,ran0 send to amf,09:13:11.799567
+3,Registration Complete,ran0 send to ue,09:13:11.799569
+

@@ -1,0 +1,35 @@
+run:
+  scenario: single
+  type: xn
+  # controller控制ran发出的构造ping包
+  background_ping: true
+  # 是否启用uevm，启用则uevm为每个pdu session建立虚拟网卡，供其他应用上网
+  open_uevm: false
+  ue_nic_limit: 5
+  auto_run: false
+scenario:
+  # 简单HO
+  single:
+    ue: 1
+    ran: 3
+    # 来回切换的次数
+    pingpong: 0
+  # 循环HO，1->2->3->4->5->1
+  loop:
+    ue: 1
+    ran: 5
+    loop: 3
+  # 批量HO，地铁场景。每个ran预留一定数量ue不动，另外一批ue同时切换
+  batch:
+    ue: 5
+    ran: 2
+  # 多连接，工业互联网场景。
+  multi_connect:
+    ue: 10000
+    HO_ue: 100
+    ran: 2
+    pingpong: 0
+  test_run:
+    ue: 10000
+    ran: 1
+    handover: false
