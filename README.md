@@ -5,7 +5,7 @@ A simulation tool that includes User Equipments(UEs) and Radio Access Network(RA
 <!--- BADGES: START --->
 
 ![Github](https://img.shields.io/github/license/Xujiahui21/Soft-CHO)
-[![Python Version](https://img.shields.io/badge/Python-3.8%10B-blue?logo=python)](https://python.org)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
 [![Go Version](https://img.shields.io/badge/Go-1.21%3B-blue?logo=go)](https://golang.org)
 
 
