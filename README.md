@@ -12,7 +12,7 @@ A simulation tool that includes User Equipments(UEs) and Radio Access Network(RA
 ## Overview
 The overall system contains UE Simulator, RANs, 5G Core and Data Network. UE Simulator and 5G Core are deployed at localhost (Ubuntu LTS 20.04), while each RAN is encapsulated in Docker. DN is the real external network, e.g. baidu.com.
 
-![Overview](docs/images/overview.png)
+![Overview](https://github.com/Xujiahui21/Soft-CHO/docs/images/overview.png)
 
 ## UE Simulator
 
